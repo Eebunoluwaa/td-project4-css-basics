@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    font-family: verdana, sans-serif;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: teal;
+    padding: 15px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60%;
+}
+.courses{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+h2{
+    padding: 30px;
+    padding-left: 200px;
+    color: teal;
+    font-family: Serif;
+}
+.course_type{
+    width: 100%;
+    border: 1px solid #CDF0EA;
+    
+}
+.course_type p{
+    line-height: 20px;
+    font-size: small;
+}
+.courses div{
+    background-color: #CDF0EA;
+    padding: 10px;
+}
+.first{
+    background-color: white;
+    text-align: center;
+}
+.first code{
+    font-size: small;
+}
+.second{
+    background-color: teal;
+    margin-top: 80px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+}
+section .discuss{
+   padding-left: 200px;
+   padding-right: 500px;
+   font-size: 18px;
+}
+section .discuss #head{
+    font-weight: bold;
+}
+section .discuss #headfont{
+    font-size: small;
+}
+section div .query{
+    padding-left: 200px;
+}
+.third{
+    background-color: white;
+
+}
+.fourth{
+    background-color: teal;
+    padding: 80px;
+    text-align: center;
+    margin-top: 60px;
+}
